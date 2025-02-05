@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Main {
+reverseString(String str) {
+public static String StringBuilder reversed new StringBuilder();
+for (int j str.length() - 1;j = 0; j--) {
+reversed.append(str.charAt(j));
+}
+return reversed.toString(); 
+}
+public static void main(String[]args) {
+Scanner sc = new
+Scanner(System.in);
+System.out.print("Enter astring: "); String str = sc.nextLine(); System.out.println("Reverse of the string" str+"' is: " + reverseString(str));
+}
+}
